@@ -1,16 +1,6 @@
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+  background-color: black;
 }
 
 .App-header {
@@ -23,16 +13,137 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.main{
+  font-family: Roboto;
+font-size: 30px;
+font-weight: 200;
+line-height: 48px;
+letter-spacing: 0.9599999785423279px;
+text-align: center;
+}
+.pic1{
+  width: 1415px;
+height: 300px;
+}
+.main-para{
+  font-family: Poppins;
+font-size: 18px;
+font-weight: 400;
+line-height: 27px;
+letter-spacing: 0em;
+text-align: center;
+}
+.btn-main{
+  width: 250px;
+  height: 47px;
+}
+.image-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+  margin-bottom: 20px; /* Adjust margin as needed to reduce the gap */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.image-with-text {
+  text-align: center;
+  margin: 5px;
+  .para-container{
+    margin-top: 5px;
+    font-family: Roboto;
+font-size: 12px;
+font-weight: 300;
+line-height: 22px;
+text-align: center;
+
   }
-  to {
-    transform: rotate(360deg);
+}
+.heading-contribution{
+  font-family: Roboto;
+font-size: 42px;
+font-weight: 200;
+line-height: 48px;
+letter-spacing: 0px;
+text-align: center;
+
+}
+.contribution{
+  font-family: Poppins;
+font-size: 18px;
+font-weight: 400;
+line-height: 27px;
+letter-spacing: 0em;
+text-align: center;
+
+}
+.three-text-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px; 
+  .para-main-text{
+    font-family: Roboto;
+font-size: 20px;
+font-weight: 300;
+line-height: 29px;
+letter-spacing: 0em;
+text-align: center;
   }
+  .para-text{
+    font-family: Roboto;
+    font-size: 10px;
+    font-weight: 300;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: center;
+  }
+}
+
+.three-text-container > div {
+  text-align: center;
+  margin-left: 20px;
+}
+
+.three-text-container > div:first-child {
+  margin-left: 0;
+}
+.heading2{
+  font-family: Roboto;
+font-size: 45px;
+font-weight: 300;
+line-height: 48px;
+letter-spacing: 0.9599999785423279px;
+text-align: left;
+}
+.para2{
+  font-family: Roboto;
+font-size: 28px;
+font-weight: 400;
+line-height: 33px;
+letter-spacing: 0em;
+text-align: center;
+}
+button {
+  margin-top: 10px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+
+.black-button {
+  background-color: black;
+  color: white;
+}
+.black-button, .normal-button {
+  width: 200px;
+  height: 40px;
+  border: 1px solid white;
+  cursor: pointer;
+  margin: 0 0 0 15px;
+}
+.footer{
+  margin-top: 30px;
+  font-size: 15px;
 }
